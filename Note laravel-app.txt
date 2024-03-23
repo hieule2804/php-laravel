@@ -1,0 +1,14 @@
+-php artisan make:controller PageController : tạo file PageController trong Controller
+-php artisan make:model Post -m: tạo ra thực thể Post trong tầng model, và tạo cả migration : migration : từ các model sẽ tự sinh ra các câu lệnh tạo bảng trong Mysql
+-php artisan serve --port= ? : tạo cổng port
+-composer create-project laravel/laravel myproject : tạo project laravel
+-php artisan storage:link :tạo thư mục để lưu trữ 
+-php artisan migrate : create table in database7:57 PM 3/14/2024
+- php artisan route:list : show all url  of app
+- php artisan make:rule Uppercase : tạo rule , tự động tùy biến validate
+- php artisan make:request CreateValidationRequest : validation by creating a custom Request
+
+-terminal : connect MySQL
+connect: mysql -u root -p
+show database : show databases;
+create database: create database name-database;
